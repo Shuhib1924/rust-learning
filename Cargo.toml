@@ -1,0 +1,35 @@
+[package]
+name = "main"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "variable"
+path = "src/1-variable.rs"
+
+[[bin]]
+name = "const"
+path = "src/2-const.rs"
+
+[[bin]]
+name = "types"
+path = "src/3-types.rs"
+
+[[bin]]
+name = "func"
+path = "src/4-func.rs"
+
+[[bin]]
+name = "control"
+path = "src/5-control.rs"
+
+[[bin]]
+name = "ownership"
+path = "src/6-ownership.rs"
+
+[[bin]]
+name = "string"
+path = "src/3.1-string.rs"
+
+
+[dependencies]
